@@ -93,17 +93,15 @@ Examples:
 
 After detecting an emotion, the system will ask the user if they would like to listen to a song based on their emotional state. If the user agrees, the corresponding emotion-specific song will be played using **Pygame**.
 
-## File Structure
-facial-emotion-detection/ │ ├── train_model.py # Training script for the model ├── main.py # Main application script ├── model_file.h5 # Pre-trained model (after training) ├── requirements.txt # Required packages ├── happy_song.mp3 # Music files for emotion-specific responses ├── sad_song.mp3 ├── angry_song.mp3 ├── surprise_song.mp3 ├── disgust_song.mp3 ├── fear_song.mp3 ├── neutral_song.mp3 ├── haarcascade_frontalface_default.xml # Haarcascade file for face detection └── authorized_users.pkl # Pickle file to store authorized users
-
-
 ## Future Enhancements
+
 - Expand the emotion classification model for better accuracy.
 - Integrate additional features like multi-user tracking.
 - Add support for more emotions and corresponding actions.
 - Improve the Tkinter GUI for a more seamless user experience.
 
 ## Acknowledgments
+
 - **TensorFlow/Keras**: For providing the model architecture.
 - **OpenCV**: For face detection.
 - **Pyttsx3**: For enabling text-to-speech functionality.
